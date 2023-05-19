@@ -1,0 +1,7 @@
+.cards {
+  display: flex;
+  flex-direction: row;
+  margin-left: calc(100% / (1440 / 100));
+  margin-right: calc(100% / (1440 / 100));
+  margin-top: 400px;
+}

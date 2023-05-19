@@ -1,0 +1,6 @@
+.header__title {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 5rem;
+  z-index: 2;
+}

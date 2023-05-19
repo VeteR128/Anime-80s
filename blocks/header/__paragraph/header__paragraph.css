@@ -1,0 +1,9 @@
+.header__paragraph {
+  color: white;
+  font-size: 2rem;
+  max-width: 60%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 25px;
+  z-index: 2;
+}
