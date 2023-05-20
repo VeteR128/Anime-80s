@@ -1,7 +1,9 @@
 .cards {
   display: flex;
   flex-direction: row;
-  margin-left: calc(100% / (1440 / 100));
-  margin-right: calc(100% / (1440 / 100));
-  margin-top: 400px;
+  margin-left: calc(200% / (1440 / 100));
+  margin-right: calc(200% / (1440 / 100));
+  margin-top: 100px;
+  justify-content: space-between;
+  padding-bottom: 250px;
 }

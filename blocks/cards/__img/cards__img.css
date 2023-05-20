@@ -1,6 +1,6 @@
 .cards__img {
-  width: 100%;
+  width: 30vw;
+  height: 70vh;
   margin-top: 50px;
-  border-radius: 8px;
-  box-shadow: 10px 5px 5px rgb(255, 0, 0);
+  border: 5px solid red;
 }

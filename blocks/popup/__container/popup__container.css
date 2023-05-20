@@ -1,0 +1,12 @@
+.popup__container {
+  display: flex;
+  flex-direction: row;
+  max-height: 85vh;
+  max-width: 60vw;
+  width: 100%;
+
+  background-color: rgb(241, 243, 244);
+  border-radius: 8px;
+  border: 2px solid white;
+  justify-content: space-between;
+}

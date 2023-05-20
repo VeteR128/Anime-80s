@@ -1,0 +1,5 @@
+.open {
+  visibility: visible;
+  opacity: 1;
+  transition: all 1.5s ease-in-out;
+}
