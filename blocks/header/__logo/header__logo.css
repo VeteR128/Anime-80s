@@ -1,3 +1,5 @@
 .header__logo {
   width: 90%;
+  cursor: pointer;
+  will-change: transform;
 }

@@ -1,6 +1,10 @@
 .cards__img {
-  width: 30vw;
+  width: 27vw;
   height: 70vh;
   margin-top: 50px;
-  border: 5px solid red;
+  border: 3px solid red;
+  object-fit: cover;
+  object-position: top center;
+  cursor: pointer;
+  will-change: transform;
 }

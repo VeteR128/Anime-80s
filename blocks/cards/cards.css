@@ -6,4 +6,8 @@
   margin-top: 100px;
   justify-content: space-between;
   padding-bottom: 250px;
+  will-change: transform;
+}
+.char {
+  will-change: transform;
 }

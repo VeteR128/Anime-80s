@@ -1,4 +1,6 @@
 .cards__title {
   color: white;
+  font-size: 1.5rem;
   letter-spacing: 2px;
+  will-change: transform;
 }

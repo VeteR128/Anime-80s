@@ -1,4 +1,5 @@
 .popup__audio {
   max-width: 700px;
   width: 90%;
+  will-change: transform;
 }

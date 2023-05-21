@@ -2,4 +2,5 @@
   margin: 0 auto;
   background-color: #000000;
   font-family: "voyage", Arial, Helvetica, sans-serif;
+  will-change: transform;
 }
