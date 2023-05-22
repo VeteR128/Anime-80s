@@ -243,7 +243,7 @@ class charsanimate {
       {
         x: 0,
         opacity: 1,
-        stagger: 0.75,
+        stagger: 0.005,
         duration: 0.00001,
         ease: "power4.out",
         scrollTrigger: {

@@ -1,9 +1,16 @@
 .header__paragraph {
   color: white;
   font-size: 1.5rem;
-  max-width: 60%;
+  max-width: 40%;
+  width: 100%;
   text-align: center;
   margin: 0;
   margin-bottom: 25px;
   z-index: 2;
+  margin-top: 50px;
+}
+@media screen and (max-width: 480px) {
+  .header__paragraph {
+    font-size: 1rem;
+  }
 }

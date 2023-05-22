@@ -9,3 +9,8 @@
     font-size: 1rem;
   }
 }
+@media screen and (max-width: 480px) {
+  .cards__title {
+    font-size: 10px;
+  }
+}
