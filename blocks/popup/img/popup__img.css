@@ -5,3 +5,18 @@
   border-radius: 8px;
   margin-bottom: 5px;
 }
+@media screen and (max-width: 1024px) {
+  .popup__img {
+    max-width: 450px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popup__img {
+    max-width: 350px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .popup__img {
+    max-width: 250px;
+  }
+}
