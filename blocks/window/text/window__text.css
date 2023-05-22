@@ -1,3 +1,8 @@
 .window__text {
   color: #035d09;
+  margin-right: 30px;
+  max-width: 90%;
+}
+.wrapper {
+  overflow: hidden;
 }
