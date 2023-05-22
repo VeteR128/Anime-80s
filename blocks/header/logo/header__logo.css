@@ -3,3 +3,10 @@
   cursor: pointer;
   will-change: transform;
 }
+@media screen and (max-width: 480px) {
+  .header__logo {
+    width: 90%;
+    height: 60vh;
+    object-fit: cover;
+  }
+}
