@@ -4,3 +4,8 @@
   letter-spacing: 2px;
   will-change: transform;
 }
+@media screen and (max-width: 780px) {
+  .cards__title {
+    font-size: 1rem;
+  }
+}

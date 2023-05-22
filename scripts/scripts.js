@@ -9,6 +9,7 @@ const popupAnimImg = ".popup__img";
 const popupAnimtext = ".popup__paragraph";
 const popupAnimAUDIO = ".popup__audio";
 const shadon = document.querySelector(".shadon");
+
 ScrollSmoother.create({
   wrapper: ".wrapper",
   content: ".page",
@@ -209,7 +210,24 @@ const ourText = new SplitType(".header__title", { types: "chars" });
 const chars = ourText.chars;
 const ourParagraph = new SplitType(".header__paragraph", { types: "chars" });
 const charsP = ourParagraph.chars;
-
+const windownText = new SplitType(".window__text", { types: "chars" });
+const charsT = windownText.chars;
+gsap.fromTo(
+  charsT,
+  { x: 100, opacity: 0 },
+  { x: 0, opacity: 1, stagger: 0.01, duration: 0.00001, ease: "power4.out" }
+);
+gsap.fromTo(
+  ".window__block",
+  { opacity: 0 },
+  { opacity: 1, repeat: 6, duration: 0.85, ease: "power4.out" }
+);
+let low = gsap.fromTo(
+  ".window",
+  { autoAlpha: 1 },
+  { autoAlpha: 0, ease: "power4.out" }
+);
+low.delay(5);
 class charsanimate {
   constructor(item) {
     this._item = item;
